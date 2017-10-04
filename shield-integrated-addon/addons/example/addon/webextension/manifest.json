@@ -1,0 +1,15 @@
+{
+  "name": "EmbeddedWebExtensionExample",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "permissions": [
+    "webNavigation",
+    "storage"
+  ],
+  "page_action": {
+  "browser_style": true
+  },
+  "background": {
+  	"scripts": ["background.js"]
+  	}
+}

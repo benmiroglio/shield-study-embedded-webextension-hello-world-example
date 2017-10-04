@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "taarExperiment",
+  "definitions": {
+    "attributes": {
+      "properties": {
+        "pingType": {"type": "string"},
+        "time": {"type": "string"},
+      },
+      "additionalProperties": false,
+      "minProperties": 2
+    }
+}
