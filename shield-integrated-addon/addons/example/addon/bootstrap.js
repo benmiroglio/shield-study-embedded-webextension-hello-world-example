@@ -68,7 +68,7 @@ async function startup(addonData, reason) {
         else if (msg['trigger-popup']) {
           console.log("triggering popup")
           var window = Services.wm.getMostRecentWindow('navigator:browser')
-          var pageAction = window.document.getElementById("embedded-webextension-example_mozilla_com-page-action")
+          var pageAction = window.document.getElementById("shield-study-embedded-webextension-hello-world-example_mozilla_com-page-action")
           pageAction.click()
         }
         else if (msg["clicked-button"]) {

@@ -1,5 +1,5 @@
 {
-  "name": "EmbeddedWebExtensionExample",
+  "name": "shield-study-embedded-webextension-hello-world-example",
   "version": "0.0.1",
   "manifest_version": 2,
   "permissions": [

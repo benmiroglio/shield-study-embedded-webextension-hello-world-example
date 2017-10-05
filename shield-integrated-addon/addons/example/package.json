@@ -1,7 +1,7 @@
 {
-  "name": "embedded-webextension-example",
+  "name": "shield-study-embedded-webextension-hello-world-example",
   "version": "1.0.0",
-  "description": "Example of using embedded WebExtensions with Shield",
+  "description": "Hello World Example of using embedded WebExtensions with Shield",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,12 +23,12 @@
   },
   "addon": {
     "version": "1.0.0",
-    "id": "embedded-webextension-example@mozilla.com",
-    "name": "EmbeddedWebExtensionExample",
+    "id": "shield-study-embedded-webextension-hello-world-example@mozilla.com",
+    "name": "shield-study-embedded-webextension-hello-world-example",
     "minVersion": "53.0",
     "maxVersion": "*",
     "creator": "Ben Miroglio <bmiroglio@mozilla.com>",
-    "description": "Example of using embedded WebExtensions with Shield",
+    "description": "Hello World Example of using embedded WebExtensions with Shield",
     "chrome": "embedded-webextension-example",
     "multiprocessCompatible": true,
     "hasEmbeddedWebExtension": true
