@@ -11,7 +11,13 @@ It is particularly useful to compare the source code of previously deployed shie
 
 # Anatomy of a shield study add-on
 
-Shield study add-ons are legacy add-ons with an embedded webextension. It needs to be a legacy add-on in order to be able to access Telemetry data, user preferences etc that are required for collecting relevant data for [Shield Studies](https://wiki.mozilla.org/Firefox/Shield/Shield_Studies).
+Shield study add-ons are legacy (`shield-integrated-addon/addons/example/addon/bootstrap.js`) add-ons with an embedded webextension (`shield-integrated-addon/addons/example/addon/webextension/background.js`). 
+
+It needs to be built using a legacy add-on in order to be able to access Telemetry data, user preferences etc that are required for collecting relevant data for [Shield Studies](https://wiki.mozilla.org/Firefox/Shield/Shield_Studies).
+
+It is recommended to build necessary logic and user interface using in the context of the webextension and communicate with the legacy add-on code through messaging whenever privileged access is required.
+
+For more information about the legacy add-on part of the code, see [https://github.com/mozilla/shield-studies-addon-utils]().
 
 # Functionality
 
