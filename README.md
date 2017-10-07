@@ -17,7 +17,7 @@ It needs to be built using a legacy add-on in order to be able to access Telemet
 
 It is recommended to build necessary logic and user interface using in the context of the webextension and communicate with the legacy add-on code through messaging whenever privileged access is required.
 
-For more information about the legacy add-on part of the code, see [https://github.com/mozilla/shield-studies-addon-utils]().
+For more information about the legacy add-on part of the code, see https://github.com/mozilla/shield-studies-addon-utils.
 
 # Functionality
 
@@ -50,7 +50,7 @@ Once you package your `.xpi` file, open (preferably) the [Developer Edition of F
 
 I recommend using the Browser Console which can be opened from Firefox's top toolbar in Tools > Web Developer > Browser Console. This will display Shield (loading/telemetry) and `console.log()` output.
 
-To see the Add-on at work, navigate to any url (for instance [http://example.com]()) and you should see a green puzzle piece icon in the browser address bar. You should also see the following in the Browser Console, which comes from this add-on:
+To see the Add-on at work, navigate to any url (for instance http://example.com) and you should see a green puzzle piece icon in the browser address bar. You should also see the following in the Browser Console, which comes from this add-on:
 
 ```
 Heard a web nav...  background.js:55:13
