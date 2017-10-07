@@ -6,8 +6,8 @@ It is particularly useful to compare the source code of previously deployed shie
 
 # Similar repositories
 
-[https://github.com/gregglind/template-shield-study]() - According to Shield engineers, the most up to date shield study template as of 4th October 2017, albeit with incomplete documentation. 
-[https://github.com/mozilla/shield-studies-addon-template]() - An old "official" template for shield study add-ons, not updated since October 2016. Do not use. 
+[https://github.com/gregglind/template-shield-study] - According to Shield engineers, the most up to date shield study template as of 4th October 2017, albeit with incomplete documentation. 
+[https://github.com/mozilla/shield-studies-addon-template] - An old "official" template for shield study add-ons, not updated since October 2016. Do not use. 
 
 # Anatomy of a shield study add-on
 
