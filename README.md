@@ -48,7 +48,7 @@ Once you package your `.xpi` file, open (preferably) the [Developer Edition of F
 
 # Seeing the add-on in action
 
-I recommend using the Browser Console which can be open from Firefox's top toolbar in Tools > Web Developer > Browser Console. This will display Shield (loading/telemetry) and `console.log()` output.
+I recommend using the Browser Console which can be opened from Firefox's top toolbar in Tools > Web Developer > Browser Console. This will display Shield (loading/telemetry) and `console.log()` output.
 
 To see the Add-on at work, navigate to any url (for instance [http://example.com]()) and you should see a green puzzle piece icon in the browser address bar. You should also see the following in the Browser Console, which comes from this add-on:
 
@@ -87,7 +87,7 @@ If you want to tweak the add-on, you can automatically build recent changes and 
 
 `$ npm run watch`
 
-Now, anytime a file is changed and saved, node will repackage the add-on. You must reload the add-on as before, or by clicking the "Reload" under the add-on in *about:debugging*. Note that a hard re-load is recommended to clear local storage. To do this, simply remove the add-on and reload as before. 
+Now, anytime a file is changed and saved, node will repackage the add-on. You must reload the add-on as before, or by clicking the "reload" button under the add-on in *about:debugging*. Note that a hard reload is recommended to clear local storage. To do this, simply remove the add-on and reload as before. 
 
 # Getting Data
 
